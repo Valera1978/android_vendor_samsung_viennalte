@@ -135,6 +135,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/viennalte/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so\
 	vendor/samsung/viennalte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so\
 	vendor/samsung/viennalte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so\
+	vendor/samsung/viennalte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so\
+	vendor/samsung/viennalte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so\
+	vendor/samsung/viennalte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so\
 	vendor/samsung/viennalte/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so\
 	vendor/samsung/viennalte/proprietary/lib/libmmcamera_fidelix_eeprom.so:system/lib/libmmcamera_fidelix_eeprom.so\
 	vendor/samsung/viennalte/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so\
@@ -161,6 +164,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/viennalte/proprietary/lib/libTsAf.so:system/lib/libTsAf.so\
 	vendor/samsung/viennalte/proprietary/lib/libvdis.so:system/lib/libvdis.so\
 	vendor/samsung/viennalte/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so\
+	vendor/samsung/viennalte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so\
 	vendor/samsung/viennalte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so\
 	vendor/samsung/viennalte/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so\
 	vendor/samsung/viennalte/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so\
@@ -271,4 +275,5 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/viennalte/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so\
 	vendor/samsung/viennalte/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so\
 	vendor/samsung/viennalte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so\
-	vendor/samsung/viennalte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+	vendor/samsung/viennalte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so\
+	vendor/samsung/viennalte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so
