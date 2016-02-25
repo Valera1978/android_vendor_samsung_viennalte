@@ -276,4 +276,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/viennalte/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so\
 	vendor/samsung/viennalte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so\
 	vendor/samsung/viennalte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so\
-	vendor/samsung/viennalte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so
+	vendor/samsung/viennalte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so\
+	vendor/samsung/viennalte/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so\
+	vendor/samsung/viennalte/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so\
+	vendor/samsung/viennalte/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so\
+	vendor/samsung/viennalte/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so
