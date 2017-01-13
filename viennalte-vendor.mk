@@ -270,6 +270,39 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/samsung/viennalte/proprietary/lib/libak8963c.so:system/lib/libak8963c.so \
 	vendor/samsung/viennalte/proprietary/lib/libmmcamera_s5k6b2yx.so:system/lib/libmmcamera_s5k6b2yx.so
+
+PRODUCT_COPY_FILES += \
+	vendor/samsung/viennalte/proprietary/bin/hvdcp:system/bin/hvdcp \
+	vendor/samsung/viennalte/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+	vendor/samsung/viennalte/proprietary/bin/netmgrd:system/bin/netmgrd\
+	vendor/samsung/viennalte/proprietary/bin/perfd:system/bin/perfd \
+	vendor/samsung/viennalte/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+	vendor/samsung/viennalte/proprietary/lib/libarcsoft_night_shot_ex.so:system/lib/libarcsoft_night_shot_ex.so \
+	vendor/samsung/viennalte/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+	vendor/samsung/viennalte/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
+	vendor/samsung/viennalte/proprietary/lib/libarcsoft_picaction_manual.so:system/lib/libarcsoft_picaction_manual.so \
+	vendor/samsung/viennalte/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
+	vendor/samsung/viennalte/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
+	vendor/samsung/viennalte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
+	vendor/samsung/viennalte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+	vendor/samsung/viennalte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
+	vendor/samsung/viennalte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+	vendor/samsung/viennalte/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+	vendor/samsung/viennalte/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+	vendor/samsung/viennalte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 	
 PRODUCT_PACKAGES += \
  libmm-abl \
