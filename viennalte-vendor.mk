@@ -147,6 +147,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/viennalte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
 	vendor/samsung/viennalte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/viennalte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+	vendor/samsung/viennalte/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
 	vendor/samsung/viennalte/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
 	vendor/samsung/viennalte/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
 	vendor/samsung/viennalte/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
