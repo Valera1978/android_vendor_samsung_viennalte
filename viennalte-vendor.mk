@@ -42,10 +42,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/viennalte/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
 	vendor/samsung/viennalte/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
 	vendor/samsung/viennalte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-	vendor/samsung/viennalte/proprietary/etc/clatd.conf:system/etc/clatd.conf \
-	vendor/samsung/viennalte/proprietary/etc/gps.conf:system/etc/gps.conf \
-	vendor/samsung/viennalte/proprietary/etc/izat.conf:system/etc/izat.conf \
-	vendor/samsung/viennalte/proprietary/etc/sap.conf:system/etc/sap.conf \
 	vendor/samsung/viennalte/proprietary/etc/imx134_module_info.xml:system/etc/imx134_module_info.xml \
 	vendor/samsung/viennalte/proprietary/etc/imx135_module_info.xml:system/etc/imx135_module_info.xml \
 	vendor/samsung/viennalte/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
