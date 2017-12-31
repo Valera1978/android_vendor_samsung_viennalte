@@ -17,7 +17,6 @@
 # Pick up overlay for features that depend on non-open-source files
 
 PRODUCT_COPY_FILES += \
-	vendor/samsung/viennalte/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
 	vendor/samsung/viennalte/proprietary/bin/adsprpcd:system/bin/adsprpcd \
 	vendor/samsung/viennalte/proprietary/bin/efsks:system/bin/efsks \
 	vendor/samsung/viennalte/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -29,7 +28,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/viennalte/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/samsung/viennalte/proprietary/bin/radish:system/bin/radish \
 	vendor/samsung/viennalte/proprietary/bin/rfs_access:system/bin/rfs_access \
-	vendor/samsung/viennalte/proprietary/bin/rild:system/bin/rild \
+	vendor/samsung/viennalte/proprietary/bin/rild:system/vendor/bin/hw/rild \
 	vendor/samsung/viennalte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/samsung/viennalte/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/samsung/viennalte/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
@@ -321,6 +320,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/viennalte/graphics/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/viennalte/graphics/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/viennalte/graphics/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
+
+PRODUCT_COPY_FILES += \
+	vendor/samsung/viennalte/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+	vendor/samsung/viennalte/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+	vendor/samsung/viennalte/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so
 	
 PRODUCT_PACKAGES += \
  libmm-abl \
