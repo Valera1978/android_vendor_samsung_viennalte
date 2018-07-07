@@ -59,18 +59,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/viennalte/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_4339_a0:system/vendor/etc/wifi/bcmdhd_sta.bin_4339_a0 \
     vendor/samsung/viennalte/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_4354_a0:system/vendor/etc/wifi/bcmdhd_sta.bin_4354_a0 \
     vendor/samsung/viennalte/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_4354_a1:system/vendor/etc/wifi/bcmdhd_sta.bin_4354_a1 \
-    vendor/samsung/viennalte/proprietary/vendor/etc/wifi/cred.conf:system/vendor/etc/wifi/cred.conf \
     vendor/samsung/viennalte/proprietary/vendor/etc/wifi/nvram_mfg.txt_4339_a0:system/vendor/etc/wifi/nvram_mfg.txt_4339_a0 \
     vendor/samsung/viennalte/proprietary/vendor/etc/wifi/nvram_mfg.txt_4354_a0:system/vendor/etc/wifi/nvram_mfg.txt_4354_a0 \
     vendor/samsung/viennalte/proprietary/vendor/etc/wifi/nvram_mfg.txt_4354_a1:system/vendor/etc/wifi/nvram_mfg.txt_4354_a1 \
     vendor/samsung/viennalte/proprietary/vendor/etc/wifi/nvram_net.txt_4339_a0:system/vendor/etc/wifi/nvram_net.txt_4339_a0 \
     vendor/samsung/viennalte/proprietary/vendor/etc/wifi/nvram_net.txt_4354_a0:system/vendor/etc/wifi/nvram_net.txt_4354_a0 \
     vendor/samsung/viennalte/proprietary/vendor/etc/wifi/nvram_net.txt_4354_a1:system/vendor/etc/wifi/nvram_net.txt_4354_a1 \
-    vendor/samsung/viennalte/proprietary/vendor/etc/wifi/olsrd.conf:system/vendor/etc/wifi/olsrd.conf \
-    vendor/samsung/viennalte/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:system/vendor/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/samsung/viennalte/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:system/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
-    vendor/samsung/viennalte/proprietary/vendor/etc/wifi/wpa_supplicant.conf:system/vendor/etc/wifi/wpa_supplicant.conf \
-    vendor/samsung/viennalte/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:system/vendor/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/samsung/viennalte/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/samsung/viennalte/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/samsung/viennalte/proprietary/vendor/firmware/bcm4335_V0031.0146.hcd:system/vendor/firmware/bcm4335_V0031.0146.hcd \
