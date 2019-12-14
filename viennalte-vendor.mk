@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/viennalte/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
     vendor/samsung/viennalte/proprietary/vendor/bin/rfs_access:$(TARGET_COPY_OUT_VENDOR)/bin/rfs_access \
     vendor/samsung/viennalte/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/samsung/viennalte/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/samsung/viennalte/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/samsung/viennalte/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/samsung/viennalte/proprietary/vendor/cameradata/datapattern_420sp.yuv:$(TARGET_COPY_OUT_VENDOR)/cameradata/datapattern_420sp.yuv \
@@ -82,7 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/viennalte/proprietary/vendor/lib/hw/camera.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8974.so \
     vendor/samsung/viennalte/proprietary/vendor/lib/hw/camera.vendor.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8974.so \
     vendor/samsung/viennalte/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
-    vendor/samsung/viennalte/proprietary/vendor/lib/hw/sensors.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8974.so \
+    vendor/samsung/viennalte/proprietary/vendor/lib/hw/sensors.vendor.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.msm8974.so \
     vendor/samsung/viennalte/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/samsung/viennalte/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
     vendor/samsung/viennalte/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345_camcorder.so \
